@@ -26,3 +26,4 @@ import:
   version: ~1.4.1
 - package: github.com/gorilla/mux
   version: ~1.7.4
+- package: github.com/pires/go-proxyproto

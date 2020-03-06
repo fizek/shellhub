@@ -1,5 +1,5 @@
-hash: b5e6f698be20970ccc6976b4345ec813cfc2feb5701f581272c8faeb32676d1e
-updated: 2020-02-21T13:55:37.959737596-03:00
+hash: db944df5906633869fbe9c8aa8f7efd04d4a11815f17e9bf10d174a105d54a5b
+updated: 2020-03-06T00:22:21.996836737-03:00
 imports:
 - name: github.com/anmitsu/go-shlex
   version: 648efa622239a2f6ff949fed78ee37b48d499ba4
@@ -7,8 +7,6 @@ imports:
   version: a58974ee87a68abcf6cfb2315224e89135cf3311
 - name: github.com/eclipse/paho.mqtt.golang
   version: adca289fdcf8c883800aafa545bc263452290bae
-  subpackages:
-  - packets
 - name: github.com/gliderlabs/ssh
   version: 5b6cc7030f17095c0cf23bb063b0bfe824fe5f8b
 - name: github.com/gorilla/mux
@@ -19,6 +17,8 @@ imports:
   version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
 - name: github.com/parnurzeal/gorequest
   version: b735e503d8bf955a72baf89723cdb50ab0bd668c
+- name: github.com/pires/go-proxyproto
+  version: 833e5d06d8f0c387ec75861fd9b5632921665aaa
 - name: github.com/pkg/errors
   version: ba968bfe8b2f7e042a574c888954fccecfa385b4
 - name: github.com/satori/go.uuid
@@ -26,7 +26,7 @@ imports:
 - name: github.com/Sirupsen/logrus
   version: 839c75faf7f98a33d445d181f3018b5c3409a45e
 - name: golang.org/x/crypto
-  version: bac4c82f69751a6dd76e702d54b3ceb88adab236
+  version: 2aa609cf4a9d7d1126360de73b55b6002f9e052a
   subpackages:
   - blowfish
   - chacha20
@@ -40,10 +40,7 @@ imports:
 - name: golang.org/x/net
   version: 46282727080fcf56da5781d0a9ef2fda184be5e6
   subpackages:
-  - internal/socks
-  - proxy
   - publicsuffix
-  - websocket
 - name: golang.org/x/sys
   version: cb0a6d8edb6c3528b01a0be84a5fe513dbf880a6
   subpackages:
@@ -54,5 +51,5 @@ imports:
   subpackages:
   - bson
 - name: moul.io/http2curl
-  version: 6e492056e75ab57b7ead79feb2934f1bd778301d
+  version: 9280a7ca1854f93dfee71d5e7d448627123efaf5
 testImports: []
